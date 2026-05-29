@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "active-knee-exoskeleton",
+    "title": "Active Knee Exoskeleton for Osteoarthritis Treatment",
+    "category": "Robotics",
+    "tags": ["Biomechanics", "MATLAB", "SolidWorks", "Control Systems"],
+    "status": "Ongoing",
+    "date": "2025",
+    "featured": true,
+    "thumbnail": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
+    "shortDesc": "Wearable active exoskeleton to reduce Knee Adduction Moment for mild-to-moderate osteoarthritis patients using 5-Bar Linkage optimization.",
+    "overview": "Designed a wearable active exoskeleton to reduce Knee Adduction Moment (KAM) for mild-to-moderate knee osteoarthritis patients. The system features a bio-inspired polycentric mechanism that closely mimics natural knee kinematics.",
+    "problem": "Knee osteoarthritis affects millions globally, causing pain and reduced mobility. Existing passive braces provide limited relief without addressing the root biomechanical cause — elevated Knee Adduction Moment during gait.",
+    "objectives": [
+      "Reduce KAM during ambulation by applying corrective assistive torque",
+      "Mimic the knee's Instantaneous Center of Rotation using a 5-Bar Linkage",
+      "Achieve a ICR tracking error below 1 mm using Genetic Algorithm optimization",
+      "Provide real-time gait phase detection and assistive torque of 25 Nm"
+    ],
+    "tools": ["MATLAB", "Genetic Algorithm", "SolidWorks"],
+    "highlights": [
+      "Polycentric 5-Bar Linkage optimized via Genetic Algorithm achieving 0.47 mm ICR tracking error",
+      "Remote cable-driven actuation system for reduced distal mass",
+      "FSM-based gait detection for adaptive assistive torque delivery",
+      "Impedance control strategy targeting 25 Nm assistive torque"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "prosthetic-fatigue-tester",
+    "title": "Below-Knee Prosthetic Leg Fatigue Load Testing Mechanism",
+    "category": "Mechanical Design",
+    "tags": ["SolidWorks", "DFMA", "3D Printing", "Mechanism Design"],
+    "status": "Completed",
+    "date": "Dec 2025",
+    "featured": true,
+    "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=1600&q=80",
+    "shortDesc": "Fully mechanical walking mechanism simulating the human gait cycle for prosthetic leg fatigue load testing up to 100 kg vertical load.",
+    "overview": "Designed a fully mechanical walking mechanism that accurately simulates the human gait cycle — including heel-strike, stance, toe-off, and swing phases — for fatigue load testing of below-knee prosthetic legs.",
+    "problem": "Prosthetic leg components require rigorous fatigue testing under realistic cyclic loading conditions. Existing test rigs either over-simplify the loading profile or are prohibitively expensive for small-scale R&D.",
+    "objectives": [
+      "Simulate all four phases of the human gait cycle mechanically",
+      "Withstand vertical loads up to 100 kg",
+      "Keep cost low using DFMA principles and 3D printing",
+      "Select optimal mechanism using weighted decision matrices"
+    ],
+    "tools": ["SolidWorks", "DFMA Principles", "3D Printing (PLA)"],
+    "highlights": [
+      "Guided frame crank-link mechanism selected via weighted decision matrices",
+      "Full gait cycle simulation: heel-strike → stance → toe-off → swing",
+      "100 kg vertical load capacity with structural safety factors validated",
+      "PLA 3D printed prototype for validation before final fabrication"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "autonomous-robot",
+    "title": "Autonomous Robot — Path Following & Obstacle Avoidance",
+    "category": "Robotics",
+    "tags": ["Arduino", "Sensors", "Mobile App", "Embedded Systems"],
+    "status": "Ongoing",
+    "date": "2024",
+    "featured": true,
+    "thumbnail": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=1600&q=80",
+    "shortDesc": "Autonomous robot with line following, wall following, obstacle avoidance at 4-way junctions, mobile app control, and dead-zone recovery.",
+    "overview": "Designed and built a fully autonomous robot capable of navigating complex environments including line-following, wall-following, and 4-way junction obstacle avoidance with mobile app control.",
+    "problem": "Autonomous navigation in unstructured environments requires robust sensor fusion and decision-making algorithms that can handle edge cases like dead zones and multi-path junctions.",
+    "objectives": [
+      "Implement reliable line following using IR sensors",
+      "Add wall following mode using ultrasonic sensors",
+      "Handle 4-way junction decisions with obstacle avoidance",
+      "Provide mobile app manual override and dead-zone recovery"
+    ],
+    "tools": ["Arduino", "Mobile App", "IR Sensors", "Ultrasonic Sensors"],
+    "highlights": [
+      "Multi-mode navigation: line following, wall following, obstacle avoidance",
+      "Intelligent 4-way junction handling with priority logic",
+      "Mobile app control with real-time mode switching",
+      "Dead-zone recovery algorithm for stuck-state resolution"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "iot-temperature-monitoring",
+    "title": "IoT-Based Temperature & Humidity Monitoring System",
+    "category": "IoT",
+    "tags": ["ESP32", "DHT22", "DS18B20", "ThingSpeak", "Cloud IoT"],
+    "status": "Completed",
+    "date": "2025",
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
+    "shortDesc": "Industrial IoT monitoring system using ESP32, DHT22, and DS18B20 sensors with real-time cloud logging via ThingSpeak.",
+    "overview": "Developed an IoT-based monitoring system for industrial environments to track temperature and humidity in real-time with cloud logging and alert systems.",
+    "problem": "At Future Fibres Lanka, composite manufacturing requires strict environmental monitoring. Manual checks were time-consuming and missed critical fluctuations affecting product quality.",
+    "objectives": [
+      "Monitor temperature and humidity continuously across multiple zones",
+      "Log data in real-time to cloud via ThingSpeak",
+      "Generate alerts when parameters exceed set thresholds",
+      "Provide web dashboard for remote monitoring"
+    ],
+    "tools": ["ESP32", "DHT22", "DS18B20", "ThingSpeak", "Arduino IDE"],
+    "highlights": [
+      "Dual sensor integration: DHT22 (temp/humidity) + DS18B20 (precision temperature)",
+      "Real-time cloud data logging at configurable intervals",
+      "ThingSpeak dashboard with visual analytics",
+      "Deployed in industrial composite manufacturing environment"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "smart-medibox",
+    "title": "Smart Medibox — IoT Embedded Project",
+    "category": "IoT",
+    "tags": ["C++", "Node-RED", "MQTT", "Wokwi", "Embedded Systems"],
+    "status": "Completed",
+    "date": "Aug 2024",
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80",
+    "shortDesc": "IoT system to monitor and control medication storage environmental conditions with real-time Node-RED dashboard visualisation.",
+    "overview": "Designed an intelligent medication storage system with environmental monitoring and automated control to ensure medication efficacy.",
+    "problem": "Many medications require specific temperature and light conditions. Non-compliance leads to reduced efficacy or safety risks.",
+    "objectives": [
+      "Monitor temperature, humidity, and light levels in real-time",
+      "Automate environmental control (cooling, shading) based on sensor data",
+      "Provide MQTT-based remote dashboard via Node-RED",
+      "Simulate and validate on Wokwi before hardware deployment"
+    ],
+    "tools": ["C++", "Node-RED", "MQTT", "Wokwi"],
+    "highlights": [
+      "MQTT protocol for lightweight real-time data transmission",
+      "Node-RED dashboard with live sensor visualization",
+      "Automated servo-based light control system",
+      "Full Wokwi simulation before physical prototyping"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "gearbox-combat-robot",
+    "title": "Gearbox Design — Combat Robot Weapons",
+    "category": "Mechanical Design",
+    "tags": ["Solid Edge", "Machine Design", "CAD", "Power Transmission"],
+    "status": "Completed",
+    "date": "Nov 2024",
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
+    "shortDesc": "High-torque, multi-speed gearbox for vertical and horizontal spinner combat robots with full gear selection and shaft design.",
+    "overview": "Designed a compact, high-torque multi-speed gearbox for combat robot weapon systems, supporting both vertical and horizontal spinner configurations.",
+    "problem": "Combat robot spinners require rapid spin-up and sustained high rotational energy. Off-the-shelf gearboxes don't meet the compact size, torque density, and impact resistance requirements.",
+    "objectives": [
+      "Design for both vertical and horizontal spinner weapon types",
+      "Maximize torque-to-weight ratio",
+      "Perform full gear selection, shaft design, and power transmission calculations",
+      "Ensure impact-resistant housing"
+    ],
+    "tools": ["Solid Edge", "Machine Design Principles", "CAD"],
+    "highlights": [
+      "Custom gear ratio optimization for rapid weapon spin-up",
+      "Full shaft design with bearing selection and life calculations",
+      "Impact-resistant housing design with safety factors",
+      "Dual-configuration support for vertical and horizontal spinners"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "reverse-engineering-disc-brake",
+    "title": "Reverse Engineering — Bicycle Disc Brake System",
+    "category": "Mechanical Design",
+    "tags": ["Fusion 360", "FEA", "Generative Design", "Materials"],
+    "status": "Completed",
+    "date": "May 2024",
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1558618047-3c5984b9c3d7?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1558618047-3c5984b9c3d7?w=1600&q=80",
+    "shortDesc": "Material identification via burn, density, and Rockwell hardness tests; optimized 3D models and FEA simulations for improved brake performance.",
+    "overview": "Performed comprehensive reverse engineering of a bicycle disc brake system including material characterization, 3D modeling, FEA simulation, and generative design optimization.",
+    "problem": "Understanding the design intent and material selection of existing brake systems is essential for iterative improvement. Reverse engineering provides insights not available in commercial documentation.",
+    "objectives": [
+      "Identify materials via burn tests, density measurements, and Rockwell hardness tests",
+      "Create accurate 3D models from physical measurements",
+      "Perform FEA to validate structural performance",
+      "Apply generative design for weight reduction"
+    ],
+    "tools": ["Fusion 360", "FEA", "Generative Design", "Material Testing"],
+    "highlights": [
+      "Multi-method material identification: burn tests, density, Rockwell hardness",
+      "High-accuracy 3D reverse-engineered models in Fusion 360",
+      "FEA stress and thermal analysis under braking loads",
+      "Generative design achieving 23% weight reduction"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "car-wash-robot",
+    "title": "Autonomous Car Wash Robot",
+    "category": "Robotics",
+    "tags": ["SolidWorks", "Arduino", "ESP Module", "MIT App Inventor"],
+    "status": "Completed",
+    "date": "Jul 2023",
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1581092335397-9583eb92d232?w=1600&q=80",
+    "shortDesc": "Mechatronics group project: autonomous car wash robot with Arduino Mega, ESP WiFi module, and mobile app control.",
+    "overview": "Designed and built an autonomous car wash robot as part of a mechatronics group project, integrating mechanical, electrical, and software systems.",
+    "problem": "Manual car washing is time-consuming and inconsistent. An automated system can deliver repeatable wash quality with minimal human intervention.",
+    "objectives": [
+      "Design mechanical carriage and spray system in SolidWorks",
+      "Integrate Arduino Mega with motor drivers and sensors",
+      "Enable WiFi control via ESP module and MIT App Inventor app",
+      "Implement automatic wash cycle sequences"
+    ],
+    "tools": ["SolidWorks", "Arduino Mega", "ESP Module", "MIT App Inventor"],
+    "highlights": [
+      "Full mechanical design with linear carriage and brush systems",
+      "WiFi-enabled mobile app for remote control and cycle selection",
+      "Automated wash sequence: pre-rinse, soap, scrub, rinse, dry",
+      "Multi-axis actuator coordination via Arduino Mega"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "production-optimization-tea",
+    "title": "Optimization of Production Line — Aruna Tea Factory",
+    "category": "Industrial Engineering",
+    "tags": ["Simulation", "Lean Manufacturing", "Bottleneck Analysis"],
+    "status": "Completed",
+    "date": "Nov 2024",
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80",
+    "shortDesc": "Identified bottlenecks in withering and packing sections; proposed scheduling optimization and equipment modifications via simulation-based analysis.",
+    "overview": "Conducted a comprehensive production line optimization study at Aruna Tea Factory, using simulation-based analysis to identify and resolve operational bottlenecks.",
+    "problem": "Inefficiencies in the withering and packing stages were limiting throughput and increasing production cycle time.",
+    "objectives": [
+      "Map current production flow and identify bottlenecks",
+      "Simulate production scenarios with proposed changes",
+      "Propose scheduling optimizations and equipment modifications",
+      "Quantify potential throughput improvements"
+    ],
+    "tools": ["Simulation Software", "Lean Manufacturing Principles", "Value Stream Mapping"],
+    "highlights": [
+      "Identified withering (primary) and packing (secondary) as key bottleneck stages",
+      "Simulation-based scenario testing for multiple configuration options",
+      "Proposed scheduling changes reducing cycle time by estimated 18%",
+      "Equipment modification recommendations for packing section"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "stem-feasibility-study",
+    "title": "STEM Development & Experiment Kit — Feasibility Study",
+    "category": "Industrial Project Management",
+    "tags": ["Market Analysis", "Financial Modelling", "MS Excel", "Risk Assessment"],
+    "status": "Completed",
+    "date": "Nov 2025",
+    "featured": false,
+    "thumbnail": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+    "banner": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1600&q=80",
+    "shortDesc": "Comprehensive feasibility study (market, technical, financial) for an eco-friendly STEM experiment kit targeting children.",
+    "overview": "Conducted a comprehensive three-pillar feasibility study for an eco-friendly STEM kit product targeting primary school children in Sri Lanka.",
+    "problem": "STEM education gaps in regional Sri Lanka schools are partly due to lack of affordable, hands-on experimental tools that engage students practically.",
+    "objectives": [
+      "Assess market demand and competitive landscape",
+      "Evaluate technical production feasibility",
+      "Model financial projections and break-even analysis",
+      "Identify and mitigate key project risks"
+    ],
+    "tools": ["MS Excel", "PowerPoint", "Gantt Charts", "Risk Matrices"],
+    "highlights": [
+      "Market analysis covering regional school demand and competitor pricing",
+      "Technical feasibility assessment for eco-friendly material sourcing",
+      "5-year financial model with NPV, IRR, and break-even analysis",
+      "Risk matrix with mitigation strategies for 12 identified risks"
+    ],
+    "github": "",
+    "report": ""
+  }
+]
