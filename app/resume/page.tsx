@@ -35,7 +35,6 @@ export default function ResumePage() {
               <p className="text-white/50 text-sm mb-4">Final Year Mechanical Engineering Undergraduate</p>
               <div className="flex flex-col gap-1.5">
                 <InfoRow label="Institution" value="University of Moratuwa, Sri Lanka" />
-                <InfoRow label="GPA" value="SGPA 3.3 / 4.0" />
                 <InfoRow label="Expected Graduation" value="2026" />
               </div>
             </div>
@@ -56,7 +55,6 @@ export default function ResumePage() {
             title="B.Sc. Engineering (Hons.) in Mechanical Engineering"
             sub="University of Moratuwa — Moratuwa, Sri Lanka"
             period="2022 – Present"
-            badge="SGPA 3.3/4.0"
           >
             <p className="text-white/50 text-sm">Key Modules: Manufacturing Processes · PLC · Embedded Systems · Machine Design · 3D Modeling · Control Systems · Mechatronics</p>
           </ResumeBlock>
@@ -200,20 +198,6 @@ export default function ResumePage() {
           </div>
         </Section>
 
-        {/* References */}
-        <Section title="References" icon={<Users size={14} />}>
-          <div className="glass-card p-6 border border-[#1e1e1e] max-w-sm">
-            <div className="font-display text-base font-semibold mb-1">Dr. Lihil U. Subasinghe</div>
-            <div className="font-mono text-xs text-[#00e5ff] mb-2">Senior Lecturer Grade II</div>
-            <div className="text-white/50 text-sm leading-relaxed">
-              Department of Mechanical Engineering<br />
-              University of Moratuwa, Sri Lanka
-            </div>
-            <a href="mailto:lihils@uom.lk" className="font-mono text-xs text-white/40 hover:text-[#00e5ff] transition-colors mt-2 block">
-              lihils@uom.lk
-            </a>
-          </div>
-        </Section>
       </div>
     </div>
   )

@@ -198,11 +198,9 @@ engineering. Skilled in SolidWorks, machine design, prototyping, and engineering
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-3 gap-6 mt-12 pt-12 border-t border-[#1e1e1e]">
+              <div className="grid grid-cols-1 gap-6 mt-12 pt-12 border-t border-[#1e1e1e]">
                 {[
                   { val: '10+', label: 'Projects' },
-                  { val: '3.3', label: 'SGPA / 4.0' },
-                  { val: '175th', label: 'A/L Rank' },
                 ].map(({ val, label }) => (
                   <div key={label}>
                     <p className="font-display text-3xl font-bold text-[#00e5ff]">{val}</p>
@@ -238,13 +236,6 @@ engineering. Skilled in SolidWorks, machine design, prototyping, and engineering
                   <div className="font-mono text-xs text-white/40 mb-1">INSTITUTION</div>
                   <div className="font-display text-xs font-semibold">University of Moratuwa</div>
                   <div className="w-full h-px bg-[#00e5ff]/30 mt-2" />
-                </div>
-                <div className="absolute -bottom-4 -left-4 bg-[#0f0f0f] border border-[#1e1e1e] p-3 w-40">
-                  <div className="font-mono text-xs text-white/40 mb-1">CURRENT STATUS</div>
-                  <div className="flex items-center gap-1.5">
-                    <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-                    <span className="font-mono text-xs text-green-400">Active Research</span>
-                  </div>
                 </div>
               </div>
             </div>
