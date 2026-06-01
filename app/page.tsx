@@ -171,10 +171,7 @@ export default function Home() {
                 <TypewriterText />
               </p>
               <p className="text-white/50 text-sm leading-relaxed mb-10 max-w-md">
-                Final Year Mechanical Engineering undergraduate at the University of Moratuwa with hands-on experience in mechanical design, product development, CAD modelling, manufacturing systems, and embedded
-engineering. Skilled in SolidWorks, machine design, prototyping, and engineering analysis. Passionate about robotics, biomechanics, medical devices, and innovative product development.
-                {/* Final year undergraduate at the University of Moratuwa. Designing intelligent systems — from wearable exoskeletons to autonomous robots — where mechanics meets computation. */}
-              </p>
+ Mechanical Engineer focused on optimizing physical systems and streamlining industrial environments. My core expertise spans CAD design, structural analysis (FEA), and manufacturing engineering. By combining technical simulation skills with strategic industrial project management, I resolve production bottlenecks and drive operational excellence in full-time engineering roles.</p>
 
               <div className="flex flex-wrap gap-4">
                 <Link

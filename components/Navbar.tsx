@@ -42,7 +42,7 @@ export default function Navbar() {
               <div className="absolute -top-0.5 -right-0.5 w-1.5 h-1.5 border border-[#00e5ff]" />
             </div>
             <span className="font-mono text-sm tracking-widest text-white/80 group-hover:text-[#00e5ff] transition-colors">
-              ASIRI<span className="text-[#00e5ff]">_</span>ENG
+              ASIRI<span className="text-[#00e5ff]"> </span>Portfolio
             </span>
           </Link>
 
