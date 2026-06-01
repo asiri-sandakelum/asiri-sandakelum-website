@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { ArrowLeft, ArrowRight, ExternalLink, Github, Calendar, Tag } from 'lucide-react'
 import projects from '@/data/projects.json'
 import type { Metadata } from 'next'
+import ProjectGallery from '@/components/ProjectGallery'
 
 type Props = { params: { slug: string } }
 
@@ -149,22 +150,8 @@ export default function ProjectDetail({ params }: Props) {
         {(project as any).images && (project as any).images.length > 0 && (
           <section className="mb-12">
             <SectionLabel>06 — Visual Documentation</SectionLabel>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {(project as any).images.map((imgSrc: string, idx: number) => (
-                <div key={idx} className="relative h-64 md:h-80 overflow-hidden border border-[#1e1e1e] hover:border-[#00e5ff]/20 transition-colors">
-                  <Image
-                    src={imgSrc}
-                    alt={`${project.title} - Image ${idx + 1}`}
-                    fill
-                    className="object-cover opacity-80 hover:opacity-100 transition-opacity"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#080808]/40 to-transparent" />
-                  <div className="absolute bottom-3 left-3 font-mono text-xs text-white/40 tracking-widest">
-                    FIG. {String(idx + 1).padStart(2, '0')}
-                  </div>
-                </div>
-              ))}
-            </div>
+            {/* ProjectGallery is a client component that handles click-to-open lightbox */}
+            <ProjectGallery images={(project as any).images} title={project.title} />
           </section>
         )}
 
