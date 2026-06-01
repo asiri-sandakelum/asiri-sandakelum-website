@@ -7,12 +7,12 @@
     "status": "Ongoing",
     "date": "2025",
     "featured": true,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo.png",
+    "thumbnail": "/images/Knee-Exo.png",
+    "banner": "/images/Knee-Exo.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo-AS.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo-CAD.png"
+      "/images/Knee-Exo.png",
+      "/images/Knee-Exo-AS.png",
+      "/images/Knee-Exo-CAD.png"
     ],
     "type": "Group Project",
     "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinhe", "Chomod Rathnayaka"],
@@ -42,13 +42,13 @@
     "status": "Completed",
     "date": "Dec 2025",
     "featured": true,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project.png",
+    "thumbnail": "/images/IPMD project.png",
+    "banner": "/images/IPMD project.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project-1.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project-2.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project-3.png"
+      "/images/IPMD project.png",
+      "/images/IPMD project-1.png",
+      "/images/IPMD project-2.png",
+      "/images/IPMD project-3.png"
     ],
     "type": "Group Project",
     "teamMembers": ["Asiri Sandakelum", "Chamidu Nesath", "Luchiru Dilmith"],
@@ -78,10 +78,10 @@
     "status": "Ongoing",
     "date": "2024",
     "featured": true,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Robtics-Project.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Robtics-Project.png",
+    "thumbnail": "/images/Robtics-Project.png",
+    "banner": "/images/Robtics-Project.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Robtics-Project.png"
+      "/images/Robtics-Project.png"
     ],
     "type": "Individual Project",
     "teamMembers": ["Asiri Sandakelum"],
@@ -111,11 +111,11 @@
     "status": "Completed",
     "date": "2025",
     "featured": false,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Humi-Tem.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Humi-Tem.png",
+    "thumbnail": "/images/Humi-Tem.png",
+    "banner": "/images/Humi-Tem.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Humi-Tem.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Humi-Tem-2.png"
+      "/images/Humi-Tem.png",
+      "/images/Humi-Tem-2.png"
     ],
     "type": "Individual Project",
     "teamMembers": ["Asiri Sandakelum"],
@@ -145,10 +145,10 @@
     "status": "Completed",
     "date": "Aug 2024",
     "featured": false,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Emb-Project.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Emb-Project.png",
+    "thumbnail": "/images/Emb-Project.png",
+    "banner": "/images/Emb-Project.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Emb-Project.png"
+      "/images/Emb-Project.png"
     ],
     "type": "Individual Project",
     "teamMembers": ["Asiri Sandakelum"],
@@ -178,11 +178,11 @@
     "status": "Completed",
     "date": "Nov 2024",
     "featured": false,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/GearBox-1.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/GearBox-1.png",
+    "thumbnail": "/images/GearBox-1.png",
+    "banner": "/images/GearBox-1.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/GearBox-1.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/GearBox-2.png"
+      "/images/GearBox-1.png",
+      "/images/GearBox-2.png"
     ],
     "type": "Group Project",
     "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinha", "Akash Kubalathara"],
@@ -212,12 +212,12 @@
     "status": "Completed",
     "date": "May 2024",
     "featured": false,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng.png",
+    "thumbnail": "/images/RevEng.png",
+    "banner": "/images/RevEng.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng-1.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng-2.png"
+      "/images/RevEng.png",
+      "/images/RevEng-1.png",
+      "/images/RevEng-2.png"
     ],
     "type": "Group Project",
     "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinha", "Tharindu Gamage", "Lochini Rubashinhe", "Mineth Bhanula"],
@@ -247,11 +247,11 @@
     "status": "Completed",
     "date": "Jul 2023",
     "featured": false,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/CarWash-1.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/CarWash-1.png",
+    "thumbnail": "/images/CarWash-1.png",
+    "banner": "/images/CarWash-1.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/CarWash-1.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/CarWash-2.png"
+      "/images/CarWash-1.png",
+      "/images/CarWash-2.png"
     ],
     "type": "Group Project",
     "teamMembers": ["Asiri Sandakelum", "Lakmina Pathiranage", "Kavin Siriwardana", "Seniru Amanth", "Nadun Hewawaduge", "Kasindu Gayan", "Hirusha Rajapaksha", "Navodi Wijesekara", "Dilshan Kumarasinghe"],
@@ -281,10 +281,10 @@
     "status": "Completed",
     "date": "Nov 2024",
     "featured": false,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/POM-Project.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/POM-Project.png",
+    "thumbnail": "/images/POM-Project.png",
+    "banner": "/images/POM-Project.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/POM-Project.png"
+      "/images/POM-Project.png"
     ],
     "type": "Group Project",
     "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinha", "Akash Kubalathara", "Tharaindu Gamage"],
@@ -314,10 +314,10 @@
     "status": "Completed",
     "date": "Nov 2025",
     "featured": false,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPM-Project.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPM-Project.png",
+    "thumbnail": "/images/IPM-Project.png",
+    "banner": "/images/IPM-Project.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPM-Project.png"
+      "/images/IPM-Project.png"
     ],
     "type": "Group Project",
     "teamMembers": ["Asiri Sandakelum", "Sandaka Abhesinha", "Dhanushka Wirakon", "Dineth Anuradha"],
@@ -348,12 +348,12 @@
     "status": "Completed",
     "date": "2026",
     "featured": false,
-    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project.png",
-    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project.png",
+    "thumbnail": "/images/IE project.png",
+    "banner": "/images/IE project.png",
     "images": [
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project%20-1.png",
-      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project-2.png"
+      "/images/IE project.png",
+      "/images/IE project -1.png",
+      "/images/IE project-2.png"
     ],
     "type": "Individual Project",
     "teamMembers": ["Asiri Sandakelum"],
