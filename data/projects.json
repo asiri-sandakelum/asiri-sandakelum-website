@@ -10,9 +10,7 @@
     "thumbnail": "/images/Knee-Exo.png",
     "banner": "/images/Knee-Exo.png",
     "images": [
-      "/images/Knee-Exo.png",
-      "/images/Knee-Exo-AS.png",
-      "/images/Knee-Exo-CAD.png"
+      "/images/Knee-Exo.png","/images/Knee-Exo-AS.png","/images/Knee-Exo-CAD.png"
     ],
     "type": "Group Project",
     "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinhe", "Chomod Rathnayaka"],

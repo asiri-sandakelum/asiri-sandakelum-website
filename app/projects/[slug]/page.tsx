@@ -145,25 +145,28 @@ export default function ProjectDetail({ params }: Props) {
           </div>
         </section>
 
-        {/* Project Image */}
-        <section className="mb-12">
-          <SectionLabel>06 — Visual Documentation</SectionLabel>
-          <div className="relative h-64 md:h-96 overflow-hidden border border-[#1e1e1e]">
-            <Image
-              src={project.banner}
-              alt={project.title}
-              fill
-              className="object-cover opacity-60"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#080808]/60 to-transparent" />
-            <div className="absolute bottom-4 left-4 font-mono text-xs text-white/30 tracking-widest">
-              FIG. 01 — PROJECT DOCUMENTATION
+        {/* Project Images Gallery */}
+        {(project as any).images && (project as any).images.length > 0 && (
+          <section className="mb-12">
+            <SectionLabel>06 — Visual Documentation</SectionLabel>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {(project as any).images.map((imgSrc: string, idx: number) => (
+                <div key={idx} className="relative h-64 md:h-80 overflow-hidden border border-[#1e1e1e] hover:border-[#00e5ff]/20 transition-colors">
+                  <Image
+                    src={imgSrc}
+                    alt={`${project.title} - Image ${idx + 1}`}
+                    fill
+                    className="object-cover opacity-80 hover:opacity-100 transition-opacity"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#080808]/40 to-transparent" />
+                  <div className="absolute bottom-3 left-3 font-mono text-xs text-white/40 tracking-widest">
+                    FIG. {String(idx + 1).padStart(2, '0')}
+                  </div>
+                </div>
+              ))}
             </div>
-          </div>
-          <p className="font-mono text-xs text-white/30 mt-2 text-center tracking-widest">
-            * Add project CAD renders, photos, and FEA results to /public/projects/{project.slug}/
-          </p>
-        </section>
+          </section>
+        )}
 
         {/* Links */}
         {(project.github || project.report) && (
