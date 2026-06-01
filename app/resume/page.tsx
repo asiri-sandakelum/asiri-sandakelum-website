@@ -19,9 +19,8 @@ export default function ResumePage() {
             <h1 className="font-display text-5xl font-bold">Resume</h1>
           </div>
           <a
-            href="#"
-            onClick={(e) => e.preventDefault()}
-            title="Replace href with actual CV file path e.g. /asiri-sandakelum-cv.pdf"
+            href="/Asiri_Sandakelum_CV.pdf"
+            download
             className="flex items-center gap-2 bg-[#00e5ff] text-black font-mono text-sm font-semibold tracking-widest px-6 py-3 hover:bg-white transition-colors self-start"
           >
             <Download size={14} /> DOWNLOAD CV (PDF)

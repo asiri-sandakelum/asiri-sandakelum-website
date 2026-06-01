@@ -68,6 +68,13 @@ export default function ProjectDetail({ params }: Props) {
               </div>
             </div>
             <h1 className="font-display text-2xl md:text-4xl font-bold leading-tight">{project.title}</h1>
+            <div className="mt-2">
+              {((project as any).type === 'Group Project') ? (
+                <p className="font-mono text-sm text-white/60">Group Project - {(project as any).teamMembers && (project as any).teamMembers.length ? (project as any).teamMembers.join(', ') : 'Team members'}</p>
+              ) : (
+                <p className="font-mono text-sm text-white/60">Individual Project - Asiri Sandakelum</p>
+              )}
+            </div>
           </div>
         </div>
       </div>

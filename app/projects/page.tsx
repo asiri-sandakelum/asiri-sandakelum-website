@@ -29,7 +29,7 @@ export default function ProjectsPage() {
         !q ||
         p.title.toLowerCase().includes(q) ||
         p.tags.some((t) => t.toLowerCase().includes(q)) ||
-        p.shortDesc.toLowerCase().includes(q)
+        (p.shortDesc?.toLowerCase().includes(q) ?? false)
       return matchCat && matchSearch
     })
   }, [activeCategory, searchQuery])

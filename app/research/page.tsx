@@ -1,8 +1,8 @@
 import { ExternalLink, FileText, Users, Presentation, BookOpen } from 'lucide-react'
 
 export const metadata = {
-  title: 'Research | Asiri Sandakelum',
-  description: 'Research work, technical presentations, and IEEE activities.',
+  title: 'Activities | Asiri Sandakelum',
+  description: 'Activities work, technical presentations, and IEEE activities.',
 }
 
 const research = [
@@ -81,9 +81,9 @@ export default function ResearchPage() {
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-2">
             <div className="w-8 h-px bg-[#00e5ff]" />
-            <span className="font-mono text-xs tracking-widest text-[#00e5ff] uppercase">Academic & Technical</span>
+            <span className="font-mono text-xs tracking-widest text-[#00e5ff] uppercase">Academic & Professional</span>
           </div>
-          <h1 className="font-display text-5xl font-bold mb-4">Research</h1>
+          <h1 className="font-display text-5xl font-bold mb-4">Activities</h1>
           <p className="text-white/50 max-w-2xl leading-relaxed">
             Engineering research spanning wearable robotics, biomechanics, composite manufacturing, and industrial optimization — driven by real-world impact.
           </p>

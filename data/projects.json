@@ -7,9 +7,15 @@
     "status": "Ongoing",
     "date": "2025",
     "featured": true,
-    "thumbnail": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
-    "shortDesc": "Wearable active exoskeleton to reduce Knee Adduction Moment for mild-to-moderate osteoarthritis patients using 5-Bar Linkage optimization.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo-AS.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Knee-Exo-CAD.png"
+    ],
+    "type": "Group Project",
+    "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinhe", "Chomod Rathnayaka"],
     "overview": "Designed a wearable active exoskeleton to reduce Knee Adduction Moment (KAM) for mild-to-moderate knee osteoarthritis patients. The system features a bio-inspired polycentric mechanism that closely mimics natural knee kinematics.",
     "problem": "Knee osteoarthritis affects millions globally, causing pain and reduced mobility. Existing passive braces provide limited relief without addressing the root biomechanical cause — elevated Knee Adduction Moment during gait.",
     "objectives": [
@@ -36,9 +42,16 @@
     "status": "Completed",
     "date": "Dec 2025",
     "featured": true,
-    "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=1600&q=80",
-    "shortDesc": "Fully mechanical walking mechanism simulating the human gait cycle for prosthetic leg fatigue load testing up to 100 kg vertical load.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project-1.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project-2.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPMD%20project-3.png"
+    ],
+    "type": "Group Project",
+    "teamMembers": ["Asiri Sandakelum", "Chamidu Nesath", "Luchiru Dilmith"],
     "overview": "Designed a fully mechanical walking mechanism that accurately simulates the human gait cycle — including heel-strike, stance, toe-off, and swing phases — for fatigue load testing of below-knee prosthetic legs.",
     "problem": "Prosthetic leg components require rigorous fatigue testing under realistic cyclic loading conditions. Existing test rigs either over-simplify the loading profile or are prohibitively expensive for small-scale R&D.",
     "objectives": [
@@ -65,9 +78,13 @@
     "status": "Ongoing",
     "date": "2024",
     "featured": true,
-    "thumbnail": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=1600&q=80",
-    "shortDesc": "Autonomous robot with line following, wall following, obstacle avoidance at 4-way junctions, mobile app control, and dead-zone recovery.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Robtics-Project.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Robtics-Project.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Robtics-Project.png"
+    ],
+    "type": "Individual Project",
+    "teamMembers": ["Asiri Sandakelum"],
     "overview": "Designed and built a fully autonomous robot capable of navigating complex environments including line-following, wall-following, and 4-way junction obstacle avoidance with mobile app control.",
     "problem": "Autonomous navigation in unstructured environments requires robust sensor fusion and decision-making algorithms that can handle edge cases like dead zones and multi-path junctions.",
     "objectives": [
@@ -94,9 +111,14 @@
     "status": "Completed",
     "date": "2025",
     "featured": false,
-    "thumbnail": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
-    "shortDesc": "Industrial IoT monitoring system using ESP32, DHT22, and DS18B20 sensors with real-time cloud logging via ThingSpeak.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Humi-Tem.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Humi-Tem.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Humi-Tem.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Humi-Tem-2.png"
+    ],
+    "type": "Individual Project",
+    "teamMembers": ["Asiri Sandakelum"],
     "overview": "Developed an IoT-based monitoring system for industrial environments to track temperature and humidity in real-time with cloud logging and alert systems.",
     "problem": "At Future Fibres Lanka, composite manufacturing requires strict environmental monitoring. Manual checks were time-consuming and missed critical fluctuations affecting product quality.",
     "objectives": [
@@ -123,9 +145,13 @@
     "status": "Completed",
     "date": "Aug 2024",
     "featured": false,
-    "thumbnail": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80",
-    "shortDesc": "IoT system to monitor and control medication storage environmental conditions with real-time Node-RED dashboard visualisation.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Emb-Project.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Emb-Project.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/Emb-Project.png"
+    ],
+    "type": "Individual Project",
+    "teamMembers": ["Asiri Sandakelum"],
     "overview": "Designed an intelligent medication storage system with environmental monitoring and automated control to ensure medication efficacy.",
     "problem": "Many medications require specific temperature and light conditions. Non-compliance leads to reduced efficacy or safety risks.",
     "objectives": [
@@ -152,9 +178,14 @@
     "status": "Completed",
     "date": "Nov 2024",
     "featured": false,
-    "thumbnail": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
-    "shortDesc": "High-torque, multi-speed gearbox for vertical and horizontal spinner combat robots with full gear selection and shaft design.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/GearBox-1.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/GearBox-1.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/GearBox-1.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/GearBox-2.png"
+    ],
+    "type": "Group Project",
+    "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinha", "Akash Kubalathara"],
     "overview": "Designed a compact, high-torque multi-speed gearbox for combat robot weapon systems, supporting both vertical and horizontal spinner configurations.",
     "problem": "Combat robot spinners require rapid spin-up and sustained high rotational energy. Off-the-shelf gearboxes don't meet the compact size, torque density, and impact resistance requirements.",
     "objectives": [
@@ -181,9 +212,15 @@
     "status": "Completed",
     "date": "May 2024",
     "featured": false,
-    "thumbnail": "https://images.unsplash.com/photo-1558618047-3c5984b9c3d7?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1558618047-3c5984b9c3d7?w=1600&q=80",
-    "shortDesc": "Material identification via burn, density, and Rockwell hardness tests; optimized 3D models and FEA simulations for improved brake performance.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng-1.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/RevEng-2.png"
+    ],
+    "type": "Group Project",
+    "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinha", "Tharindu Gamage", "Lochini Rubashinhe", "Mineth Bhanula"],
     "overview": "Performed comprehensive reverse engineering of a bicycle disc brake system including material characterization, 3D modeling, FEA simulation, and generative design optimization.",
     "problem": "Understanding the design intent and material selection of existing brake systems is essential for iterative improvement. Reverse engineering provides insights not available in commercial documentation.",
     "objectives": [
@@ -210,9 +247,14 @@
     "status": "Completed",
     "date": "Jul 2023",
     "featured": false,
-    "thumbnail": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1581092335397-9583eb92d232?w=1600&q=80",
-    "shortDesc": "Mechatronics group project: autonomous car wash robot with Arduino Mega, ESP WiFi module, and mobile app control.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/CarWash-1.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/CarWash-1.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/CarWash-1.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/CarWash-2.png"
+    ],
+    "type": "Group Project",
+    "teamMembers": ["Asiri Sandakelum", "Lakmina Pathiranage", "Kavin Siriwardana", "Seniru Amanth", "Nadun Hewawaduge", "Kasindu Gayan", "Hirusha Rajapaksha", "Navodi Wijesekara", "Dilshan Kumarasinghe"],
     "overview": "Designed and built an autonomous car wash robot as part of a mechatronics group project, integrating mechanical, electrical, and software systems.",
     "problem": "Manual car washing is time-consuming and inconsistent. An automated system can deliver repeatable wash quality with minimal human intervention.",
     "objectives": [
@@ -239,9 +281,13 @@
     "status": "Completed",
     "date": "Nov 2024",
     "featured": false,
-    "thumbnail": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80",
-    "shortDesc": "Identified bottlenecks in withering and packing sections; proposed scheduling optimization and equipment modifications via simulation-based analysis.",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/POM-Project.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/POM-Project.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/POM-Project.png"
+    ],
+    "type": "Group Project",
+    "teamMembers": ["Asiri Sandakelum", "Saniru Abhesinha", "Akash Kubalathara", "Tharaindu Gamage"],
     "overview": "Conducted a comprehensive production line optimization study at Aruna Tea Factory, using simulation-based analysis to identify and resolve operational bottlenecks.",
     "problem": "Inefficiencies in the withering and packing stages were limiting throughput and increasing production cycle time.",
     "objectives": [
@@ -268,8 +314,13 @@
     "status": "Completed",
     "date": "Nov 2025",
     "featured": false,
-    "thumbnail": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
-    "banner": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1600&q=80",
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPM-Project.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPM-Project.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IPM-Project.png"
+    ],
+    "type": "Group Project",
+    "teamMembers": ["Asiri Sandakelum", "Sandaka Abhesinha", "Dhanushka Wirakon", "Dineth Anuradha"],
     "shortDesc": "Comprehensive feasibility study (market, technical, financial) for an eco-friendly STEM experiment kit targeting children.",
     "overview": "Conducted a comprehensive three-pillar feasibility study for an eco-friendly STEM kit product targeting primary school children in Sri Lanka.",
     "problem": "STEM education gaps in regional Sri Lanka schools are partly due to lack of affordable, hands-on experimental tools that engage students practically.",
@@ -285,6 +336,42 @@
       "Technical feasibility assessment for eco-friendly material sourcing",
       "5-year financial model with NPV, IRR, and break-even analysis",
       "Risk matrix with mitigation strategies for 12 identified risks"
+    ],
+    "github": "",
+    "report": ""
+  },
+  {
+    "slug": "industrial-engineering-productivity-layout-optimization",
+    "title": "Industrial Engineering - Based Productivity & Layout Optimization: A Case Study",
+    "category": "Industrial Engineering",
+    "tags": ["Layout Optimization", "Productivity Improvement", "Process Mapping", "Inventory Strategy"],
+    "status": "Completed",
+    "date": "2026",
+    "featured": false,
+    "thumbnail": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project.png",
+    "banner": "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project.png",
+    "images": [
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project%20-1.png",
+      "https://raw.githubusercontent.com/asiri-sandakelum/asiri-sandakelum-website/main/images/IE%20project-2.png"
+    ],
+    "type": "Individual Project",
+    "teamMembers": ["Asiri Sandakelum"],
+    "shortDesc": "Industrial Engineering case study on productivity and layout optimization at Abans Auto (Pvt) Ltd.",
+    "overview": "Optimized assembly and inspection processes at the Hero Motorcycle Assembly Plant using facility layout improvements, material handling reduction, and safety-focused test track design.",
+    "problem": "Suboptimal layout, bidirectional movement paths, shared-road testing, and reactive WIP management limited throughput and raised safety risks.",
+    "objectives": [
+      "Optimize assembly and inspection flow for higher plant productivity",
+      "Reduce material handling waste and eliminate dead-end workstations",
+      "Establish a dedicated drive-through test track and safer workflow",
+      "Implement strategic safety stock to reduce WIP delays"
+    ],
+    "tools": ["Shop-floor observation", "Process Mapping", "Layout Optimization", "Inventory Strategy"],
+    "highlights": [
+      "Identified PDI/QC as primary constraints with 75 minutes/unit",
+      "Reduced material search waste by 90 minutes per batch",
+      "Proposed a drive-through workstation layout and standalone test track",
+      "Developed a data-driven inventory strategy for stable throughput"
     ],
     "github": "",
     "report": ""
