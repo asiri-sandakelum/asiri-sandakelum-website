@@ -33,7 +33,7 @@ const experience = [
   },
   {
     year: '2022 – Present',
-    role: 'B.Sc. Engineering (Hons.) Mechanical',
+    role: 'B.Sc. (Hons.) Mechanical Engineering',
     company: 'University of Moratuwa',
     location: 'Moratuwa, Sri Lanka',
     type: 'Education',
