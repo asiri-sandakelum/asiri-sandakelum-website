@@ -2,8 +2,9 @@
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Search, ArrowRight, Filter } from 'lucide-react'
+import { Search, ArrowRight, Filter, Layers } from 'lucide-react'
 import projects from '@/data/projects.json'
+import cadProjects from '@/data/cad-projects.json'
 
 const categories = [
   'All',
@@ -43,9 +44,17 @@ export default function ProjectsPage() {
           <span className="font-mono text-xs tracking-widest text-[#00e5ff] uppercase">Portfolio</span>
         </div>
         <h1 className="font-display text-5xl font-bold mb-4">Engineering Projects</h1>
-        <p className="text-white/50 max-w-2xl leading-relaxed">
-          A comprehensive collection of engineering work spanning robotics, biomechanics, mechatronics, embedded systems, and manufacturing — each project driven by a real problem.
-        </p>
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <p className="text-white/50 max-w-2xl leading-relaxed">
+            A comprehensive collection of engineering work spanning robotics, biomechanics, mechatronics, embedded systems, and manufacturing — each project driven by a real problem.
+          </p>
+          <a
+            href="#cad-gallery"
+            className="flex-shrink-0 flex items-center gap-2 border-2 border-[#00e5ff] bg-[#00e5ff]/10 text-[#00e5ff] font-mono text-xs tracking-widest px-5 py-3 hover:bg-[#00e5ff]/20 hover:border-[#00e5ff] transition-all font-semibold"
+          >
+            <Layers size={14} /> VIEW CAD GALLERY
+          </a>
+        </div>
       </div>
 
       {/* Controls */}
@@ -111,7 +120,7 @@ export default function ProjectsPage() {
                       src={project.thumbnail}
                       alt={project.title}
                       fill
-                      className="object-cover opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
+                      className="object-cover opacity-75 group-hover:opacity-90 group-hover:scale-105 transition-all duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#141414] to-transparent" />
                     <div className="absolute top-3 left-3 flex gap-2">
@@ -155,6 +164,61 @@ export default function ProjectsPage() {
             ))}
           </div>
         )}
+      </div>
+
+      {/* CAD GALLERY */}
+      <div id="cad-gallery" className="max-w-7xl mx-auto px-6 mt-24 pt-16 border-t border-[#1e1e1e]">
+        <div className="mb-10">
+          <div className="flex items-center gap-3 mb-2">
+            <div className="w-8 h-px bg-[#00e5ff]" />
+            <span className="font-mono text-xs tracking-widest text-[#00e5ff] uppercase">3D Modelling</span>
+          </div>
+          <h2 className="font-display text-4xl font-bold">SolidWorks & CAD Gallery</h2>
+          <p className="text-white/40 text-sm font-mono mt-2 tracking-wide">50+ models across academic and industry projects</p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pb-24">
+          {cadProjects.map((item, i) => (
+            <Link key={item.slug} href={`/cad/${item.slug}`}>
+              <div
+                className="glass-card card-hover group relative overflow-hidden h-full"
+                style={{ animationDelay: `${i * 50}ms` }}
+              >
+                <div className="relative overflow-hidden h-52">
+                  <Image
+                    src={item.thumbnail}
+                    alt={item.title}
+                    fill
+                    className="object-cover opacity-75 group-hover:opacity-90 group-hover:scale-105 transition-all duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] to-transparent" />
+                  <div className="absolute top-3 left-3">
+                    <span className="tag-pill">{item.tags[0]}</span>
+                  </div>
+                  <div className="absolute top-0 right-0 w-8 h-8 border-r border-t border-[#00e5ff]/0 group-hover:border-[#00e5ff]/60 transition-all duration-500" />
+                  <div className="absolute bottom-0 left-0 w-8 h-8 border-l border-b border-[#00e5ff]/0 group-hover:border-[#00e5ff]/60 transition-all duration-500" />
+                </div>
+                <div className="p-5">
+                  <div className="flex flex-wrap gap-1.5 mb-2">
+                    {item.tools.map((tool) => (
+                      <span key={tool} className="font-mono text-xs text-white/30">{tool}</span>
+                    ))}
+                  </div>
+                  <h3 className="font-display text-base font-semibold leading-snug group-hover:text-[#00e5ff] transition-colors line-clamp-2">
+                    {item.title}
+                  </h3>
+                  <div className="flex items-center justify-between mt-3">
+                    <span className="font-mono text-xs text-white/25">{item.date}</span>
+                    <div className="flex items-center gap-1 font-mono text-xs text-[#00e5ff] opacity-0 group-hover:opacity-100 transition-opacity">
+                      VIEW <ArrowRight size={10} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute bottom-0 left-0 right-0 h-px bg-[#00e5ff] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300" />
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   )

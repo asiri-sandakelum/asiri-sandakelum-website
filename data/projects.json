@@ -373,5 +373,40 @@
     ],
     "github": "",
     "report": ""
+  },
+  {
+    "slug": "fea-piston-analysis",
+    "title": "Finite Element Analysis of Piston for Structural and Thermal Assessments",
+    "category": "Mechanical Design",
+    "tags": ["SolidWorks", "ANSYS", "FEA", "Thermal Analysis", "Structural Analysis"],
+    "status": "Completed",
+    "date": "2025",
+    "featured": true,
+    "thumbnail": "/images/fea-piston.png",
+    "banner": "/images/fea-piston.png",
+    "images": [
+      "/images/fea-piston.png"
+    ],
+    "type": "Individual Project",
+    "teamMembers": ["Asiri Sandakelum"],
+    "shortDesc": "Comprehensive CAE study evaluating structural integrity and thermal efficiency of IC engine piston designs using ANSYS FEA.",
+    "overview": "A comprehensive CAE study evaluating the structural integrity and thermal efficiency of different internal combustion engine piston designs. The project investigates how variations in piston head geometry (Round vs. Flat) and material selection (Aluminium Alloy vs. Magnesium Alloy) influence equivalent von-Mises stress, temperature distribution, and total heat flux under simulated engine operating conditions.",
+    "problem": "Engine piston designs must balance structural integrity under high-pressure combustion loads with thermal efficiency to prevent material degradation and ensure longevity in extreme operating conditions.",
+    "objectives": [
+      "Evaluate structural performance of round vs. flat head piston geometries",
+      "Compare thermal characteristics of aluminium and magnesium alloys",
+      "Validate FEA results against theoretical calculations and peer-reviewed literature",
+      "Identify the most optimized piston configuration for performance and efficiency"
+    ],
+    "tools": ["SolidWorks", "ANSYS Workbench", "Static Structural Module", "Steady-State Thermal Module"],
+    "highlights": [
+      "Modelled round-head and flat-head piston geometries with refined 3D tetrahedral mesh (~200,000 nodes)",
+      "Applied 15.4 MPa combustion pressure and 660°C crown temperature boundary conditions",
+      "Round head geometry demonstrated superior stress distribution (666.91 MPa) vs flat head (671.09 MPa)",
+      "Magnesium alloy achieved lowest operating temperature (583.97°C) with optimal thermal performance",
+      "Validated results against static equilibrium hand calculations (<0.1% deviation) and published literature"
+    ],
+    "github": "",
+    "report": ""
   }
 ]

@@ -68,6 +68,7 @@ const experience = [
   },
 ]
 
+
 const typewriterWords = [ 'Manufacturing','Biomechanics', 'Mechatronics','Robotics', 'Embedded Systems', 'Product Design']
 
 function TypewriterText() {
@@ -186,24 +187,25 @@ export default function Home() {
                 >
                   <Download size={14} /> RESUME
                 </a>
-                <Link
-                  href="/contact"
-                  className="flex items-center gap-2 text-white/50 font-mono text-sm tracking-widest px-6 py-3 hover:text-[#00e5ff] transition-colors"
+
+                <a
+                  href="/projects#cad-gallery"
+                  className="flex items-center gap-2 border border-[#00e5ff]/30 text-[#00e5ff]/70 font-mono text-sm tracking-widest px-6 py-3 hover:border-[#00e5ff] hover:text-[#00e5ff] transition-all"
                 >
-                  <Mail size={14} /> CONTACT
-                </Link>
+                  <Layers size={14} /> VIEW CAD GALLERY
+                </a>
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-1 gap-6 mt-12 pt-12 border-t border-[#1e1e1e]">
-                {[
-                  { val: '10+', label: 'Projects' },
-                ].map(({ val, label }) => (
-                  <div key={label}>
-                    <p className="font-display text-3xl font-bold text-[#00e5ff]">{val}</p>
-                    <p className="font-mono text-xs text-white/40 tracking-widest mt-1 uppercase">{label}</p>
-                  </div>
-                ))}
+              <div className="grid grid-cols-2 gap-6 mt-12 pt-12 border-t border-[#1e1e1e]">
+                <div>
+                  <p className="font-display text-3xl font-bold text-[#00e5ff]">11+</p>
+                  <p className="font-mono text-xs text-white/40 tracking-widest mt-1 uppercase">Projects</p>
+                </div>
+                <a href="/projects#cad-gallery" className="group cursor-pointer">
+                  <p className="font-display text-3xl font-bold text-[#00e5ff] group-hover:text-white transition-colors">6+</p>
+                  <p className="font-mono text-xs text-white/40 tracking-widest mt-1 uppercase group-hover:text-[#00e5ff] transition-colors">CAD Models</p>
+                </a>
               </div>
             </div>
 
@@ -253,7 +255,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-8 h-px bg-[#00e5ff]" />
-                <span className="font-mono text-xs tracking-widest text-[#00e5ff] uppercase">Selected Work</span>
+                <span className="font-mono text-xs tracking-widest text-[#00e5ff] uppercase">Highlighted Work</span>
               </div>
               <h2 className="font-display text-4xl font-bold">Featured Projects</h2>
             </div>
@@ -266,17 +268,17 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {featured.map((project, i) => (
-            <AnimatedSection key={project.slug} className={i === 0 ? 'lg:col-span-2 lg:row-span-2' : ''}>
+            <AnimatedSection key={project.slug} className={i === 0 ? 'md:col-span-1' : ''}>
               <Link href={`/projects/${project.slug}`}>
                 <div className="glass-card card-hover h-full group relative overflow-hidden">
-                  <div className={`relative overflow-hidden ${i === 0 ? 'h-64' : 'h-40'}`}>
+                  <div className={`relative overflow-hidden ${i === 0 ? 'h-64' : 'h-48'}`}>
                     <Image
                       src={project.thumbnail}
                       alt={project.title}
                       fill
-                      className="object-cover opacity-50 group-hover:opacity-70 group-hover:scale-105 transition-all duration-700"
+                      className="object-cover opacity-75 group-hover:opacity-90 group-hover:scale-105 transition-all duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#141414] to-transparent" />
                     <div className="absolute top-3 left-3">
@@ -298,7 +300,7 @@ export default function Home() {
                         <span key={tag} className="font-mono text-xs text-white/30">{tag}</span>
                       ))}
                     </div>
-                    <h3 className={`font-display font-semibold leading-snug mb-2 group-hover:text-[#00e5ff] transition-colors ${i === 0 ? 'text-xl' : 'text-base'}`}>
+                    <h3 className={`font-display font-semibold leading-snug mb-2 group-hover:text-[#00e5ff] transition-colors text-base`}>
                       {project.title}
                     </h3>
                     <p className="text-white/50 text-sm leading-relaxed line-clamp-2">{project.shortDesc}</p>
@@ -422,15 +424,17 @@ export default function Home() {
               <div className="font-mono text-xs tracking-widest text-[#00e5ff] mb-4">LET'S BUILD SOMETHING REMARKABLE</div>
               <h2 className="font-display text-4xl font-bold mb-4">Open to Opportunities</h2>
               <p className="text-white/50 max-w-lg mx-auto mb-8 text-sm leading-relaxed">
-                Seeking a mechanical engineering position and collaborative engineering projects. Let's connect.
+                Seeking mechanical engineering roles and collaborative projects. Let's connect and build something great.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Link
-                  href="/contact"
+                <a
+                  href="https://www.linkedin.com/in/asiri-sandakelum"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-[#00e5ff] text-black font-mono text-sm font-semibold tracking-widest px-8 py-3 hover:bg-white transition-colors"
                 >
-                  <Mail size={14} /> GET IN TOUCH
-                </Link>
+                  <ExternalLink size={14} /> CONNECT ON LINKEDIN
+                </a>
                 <a
                   href="https://www.linkedin.com/in/asiri-sandakelum"
                   target="_blank"

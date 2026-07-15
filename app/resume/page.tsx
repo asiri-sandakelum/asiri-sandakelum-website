@@ -1,8 +1,8 @@
 import { Download, ExternalLink, Award, BookOpen, Briefcase, Users, Wrench } from 'lucide-react'
 
 export const metadata = {
-  title: 'Resume | Asiri Sandakelum',
-  description: 'Engineering resume — Mechanical Engineering undergraduate at University of Moratuwa.',
+  title: 'About Me | Asiri Sandakelum',
+  description: 'Engineering profile & CV — Mechanical Engineering undergraduate at University of Moratuwa. Full professional portfolio and capabilities.',
 }
 
 export default function ResumePage() {
@@ -14,9 +14,10 @@ export default function ResumePage() {
           <div>
             <div className="flex items-center gap-3 mb-2">
               <div className="w-8 h-px bg-[#00e5ff]" />
-              <span className="font-mono text-xs tracking-widest text-[#00e5ff] uppercase">Curriculum Vitae</span>
+              <span className="font-mono text-xs tracking-widest text-[#00e5ff] uppercase">Professional Profile</span>
             </div>
-            <h1 className="font-display text-5xl font-bold">Resume</h1>
+            <h1 className="font-display text-5xl font-bold">About Me</h1>
+            <p className="text-white/50 text-sm mt-2 leading-relaxed">Mechanical Engineering undergraduate at University of Moratuwa with a diverse technical footprint. Specialized in CAD modeling (SolidWorks, Fusion 360, Solid Edge), FEA & thermal analysis (ANSYS), robotics, embedded systems, IoT solutions, and industrial process optimization. Hands-on experience in composite manufacturing, mechatronics, and production engineering. Proven track record of delivering 12+ engineering projects from concept through validation, leveraging both simulation and real-world testing methodologies.</p>
           </div>
           <a
             href="/Asiri_Sandakelum_CV.pdf"

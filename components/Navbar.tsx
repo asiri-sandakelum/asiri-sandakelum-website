@@ -8,7 +8,6 @@ const links = [
   { href: '/', label: 'Home' },
   { href: '/projects', label: 'Projects' },
   { href: '/research', label: 'Activities' },
-  { href: '/contact', label: 'Contact' },
 ]
 
 export default function Navbar() {
@@ -67,7 +66,7 @@ export default function Navbar() {
               href="/resume"
               className="border border-[#00e5ff] text-[#00e5ff] font-mono text-xs tracking-widest px-4 py-1.5 hover:bg-[#00e5ff] hover:text-black transition-all duration-200"
             >
-              RESUME
+              ABOUT ME
             </a>
           </div>
 
@@ -94,13 +93,6 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <div className="w-20 h-px bg-[#00e5ff]/30 my-2" />
-          <a
-            href="/resume"
-            className="border border-[#00e5ff] text-[#00e5ff] font-mono text-sm tracking-widest px-6 py-2 hover:bg-[#00e5ff] hover:text-black transition-all"
-          >
-            RESUME
-          </a>
         </div>
       )}
     </>
