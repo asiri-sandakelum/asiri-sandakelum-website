@@ -15,13 +15,13 @@
     "thumbnail": "/cad/model-2.png",
     "images": ["/cad/model-2.png"],
     "shortDesc": "Sealed enclosure design for carbon dust filtration in a plate cutting area, improving air quality and worker safety.",
-    "tools": ["SolidWorks", "AutoCAD"],
+    "tools": ["SolidWorks"],
     "tags": ["SolidWorks", "Facility Design"],
     "date": "2025"
   },
   {
     "slug": "shaft-coupling-assembly",
-    "title": "Shaft Coupling Assembly",
+    "title": "Cable Winding Machine Part Design (internship)",
     "thumbnail": "/cad/model-3.png",
     "images": ["/cad/model-3.png"],
     "shortDesc": "Flexible shaft coupling designed for torque transmission between misaligned shafts in rotating machinery.",
@@ -31,30 +31,30 @@
   },
   {
     "slug": "pneumatic-cylinder-mount",
-    "title": "Pneumatic Cylinder Mount",
+    "title": "Braiding Machine’s Ring Design (internship)",
     "thumbnail": "/cad/model-4.png",
     "images": ["/cad/model-4.png"],
-    "shortDesc": "Adjustable mounting bracket for double-acting pneumatic cylinders, designed for quick repositioning on automation rigs.",
+    "shortDesc": "",
     "tools": ["SolidWorks"],
     "tags": ["SolidWorks", "Automation"],
     "date": "2024"
   },
   {
     "slug": "conveyor-frame-structure",
-    "title": "Conveyor Frame Structure",
+    "title": "Rice transplant (mini machine freelance works)",
     "thumbnail": "/cad/model-5.png",
     "images": ["/cad/model-5.png"],
-    "shortDesc": "Structural frame for a belt conveyor system, modelled with bolted connections and standard structural profiles.",
-    "tools": ["SolidWorks", "ANSYS FEA"],
+    "shortDesc": "",
+    "tools": ["SolidWorks"],
     "tags": ["SolidWorks", "Structural Design"],
     "date": "2024"
   },
   {
     "slug": "bracket-fastener-assembly",
-    "title": "Bracket & Fastener Assembly",
+    "title": "innovative shoe design (freelance works)",
     "thumbnail": "/cad/model-6.png",
     "images": ["/cad/model-6.png"],
-    "shortDesc": "Multi-part bracket assembly with standard fasteners, modelled to verify fit and assembly clearance.",
+    "shortDesc": "",
     "tools": ["SolidWorks"],
     "tags": ["SolidWorks", "Assembly Design"],
     "date": "2024"
